@@ -1,0 +1,20 @@
+Available commands:
+?: to print this menu
+H: to print this menu
+R n: to read a value for polynomial n
+P n: to print the value of polynomial n
++ i j k: to add polynomials i and j and store result in k
+- i j k: to subtract polynomials j from i and store result in k
+E n v: to evaluate polynomial n with its variable set to value v
+Q: to quit
+r 0
+x 4 3 -2 2 5 -2
+p 0
+4x3 -2x2
+e 0 0
+0
+e 1 2.0
+0
++ 0 1 2
+This program can only add polynomials of the same variable
+q
